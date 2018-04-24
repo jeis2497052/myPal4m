@@ -53,4 +53,5 @@ My solution is:  4884
 # References:
 
 [REVERSAL-ADDITION PALINDROME TEST ](http://jasondoucette.com/pal/1186060307891929990)
+
 [Palindromic Number](https://en.wikipedia.org/wiki/Palindromic_number)
