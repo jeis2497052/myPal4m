@@ -1,6 +1,3 @@
-# myPal4m - quick test for Palindromic numbers
-
-```python
 #!/usr/bin/env python
 """Practice"""
 # 87   + 78   = 165
@@ -35,25 +32,3 @@ while MYPAL != 1:
     MYPAL = isPal(str(ARR))
 
 print "My Palindromic number is: ", ARR
-
-
-```
-# Results using seed of 87
-
-```sh
-./mypal.py
-starting value is =  87
-continue to iterate 165
-continue to iterate 726
-continue to iterate 1353
-continue to iterate 4884
-My Palindromic number is:  4884
-```
-
-
-
-# References:
-
-[REVERSAL-ADDITION PALINDROME TEST ](http://jasondoucette.com/pal/1186060307891929990)
-
-[Palindromic Number](https://en.wikipedia.org/wiki/Palindromic_number)
