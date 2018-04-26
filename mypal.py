@@ -6,23 +6,24 @@
 # 1353 + 3531 = 4884
 
 
-def reverse(s):
+def reverse(s2rev):
     """reverse"""
-    return s[::-1]
+    return s2rev[::-1]
 
 
-def isPal(s):
+def isPal(s2test):
     """isPal"""
-    rev = reverse(s)
+    rev = reverse(s2test)
 
-    if s == rev:
+    if s2test == rev:
         return True
     return False
 
 
 # my data ARR is seed value to iterate to Palindromic number
 
-ARR = 87
+ARR = 1186060307891929990
+ARR = 89
 MYPAL = isPal(str(ARR))
 print "starting value is = ", ARR
 
